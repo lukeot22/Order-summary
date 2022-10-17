@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0E8FF;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-container {
+    background: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    border-radius: 20px;
+    height: 697px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+.main-image{
+    border-radius: 20px 20px 0px 0px;
+    max-width: 100%;
+}
+
+.main-header {
+font-weight: 900;
+font-size: 28px;
+line-height: 37px;
+text-align: center;
+color: #1F2E55;
+width: 354px;
+margin-top: 45px;
+}
+
+.main-text {
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #717FA6;
+height: 78px;
+width: 354px;
+margin-top: 17px;
+
+}
+
+.details-container {
+/* background: #F7F9FF;
+border-radius: 11px;
+width: 354px;
+/* height: 98px; */
+  /* margin: 20px 48px 0px 48px; */
+  width: 354px;
+  height: 98px;
+  background-color:hsl(225, 100%, 98%);
+  border-radius: 11px;
+  display: grid;
+  grid-template-columns: 72px 130px 200px;
+  align-items: center;
+  align-content: center;
+  margin-top: 20px;
+}
+
+.price {
+    grid-column: 2 / 3;
+    color:  hsl(224, 23%, 55%);
+  }
+  
+
+.header {
+font-weight: 900;
+font-size: 16px;
+line-height: 21px;
+color: #1F2E55;
+}
+
+.music-logo {
+    margin-left: 24px;
+    grid-row: 1 / span 2;
+}
+
+.change {
+ grid-column: 3 / 4;
+ grid-row: 1/span 2;
+ text-decoration: underline;
+color: #382AE1;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+}
+
+.change:hover {
+    cursor: pointer;
+    color: #766CF1;
+    text-decoration: none;
+}
+.payment-box {
+    background-color: hsl(245, 75%, 52%);
+    width: 354px;
+    height: 50px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 20px rgb(56 42 225 / 19%);
+    color: #ffffff;
+    margin-top: 32px;
+}
+
+.payment {
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.payment-box:hover {
+    cursor: pointer;
+    background-color:#766CF1;
+  }
+  
+  .cancel {
+    color:  hsl(224, 23%, 55%);
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 32px;
+  }
+  
+  .cancel:hover {
+    cursor: pointer;
+    color: #1F2E55;
+  }
